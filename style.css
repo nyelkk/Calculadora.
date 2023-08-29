@@ -29,6 +29,7 @@ h2{
 .calc{
     position: absolute;
     background-color: rgb(10, 10, 10);
+    align-content: center;
     top: 10%;
     left: 50%;
     transform: translate(-50%,50%);
@@ -37,10 +38,14 @@ h2{
 }
 #resultados{
     background-color: rgb(233, 233, 233);
+    color: rgb(30, 30, 31);
     width: 207px;
     height: 30px;
     align-items: center;
     margin: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 .botao{
     border-radius: 10px;
@@ -54,4 +59,15 @@ h2{
 }
 .botao:hover{
     background-color: black;
+}
+#botao{
+    background-image: url(imagens/teclado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-radius: 12px;
 }
