@@ -59,6 +59,7 @@ h2{
 }
 .botao:hover{
     background-color: black;
+    cursor: pointer;
 }
 #botao{
     background-image: url(imagens/teclado.png);
