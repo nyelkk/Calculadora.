@@ -61,7 +61,7 @@ h2{
     background-color: black;
     cursor: pointer;
 }
-#botao{
+.botao1:hover{
     background-image: url(imagens/teclado.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,4 +71,5 @@ h2{
     height: 45px;
     border: 0;
     border-radius: 12px;
+    cursor: pointer;
 }
